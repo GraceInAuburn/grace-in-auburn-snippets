@@ -103,7 +103,13 @@ class GraceInAuburnSnippets_Plugin extends GraceInAuburnSnippets_LifeCycle {
             add_action( 'admin_notices', 'gcc_admin_error_notice' );
         }
         /*End Alert on Staging Site*/
-
+        /* Add SVG support in Uploader */
+        function cc_mime_types($mimes) {
+          $mimes['svg'] = 'image/svg+xml';
+          return $mimes;
+        }
+        add_filter('upload_mimes', 'cc_mime_types');
+        /* End Add SVG support in Uploader */
         // Add Actions & Filters
         // http://plugin.michael-simpson.com/?page_id=37
 

@@ -2,7 +2,7 @@
 /*
    Plugin Name: Grace In Auburn Snippets
    Plugin URI: http://wordpress.org/extend/plugins/grace-in-auburn-snippets/
-   Version: 0.1
+   Version: 0.2
    Author: https://twitter.com/wormeyman
    Description: his plugin is code snippets that we use on GraceInAuburn
    Text Domain: grace-in-auburn-snippets
